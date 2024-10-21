@@ -1,0 +1,61 @@
+:root{
+font-family: Arial, Helvetica;
+}
+
+body{
+background-color: #000;
+}
+#titulo{
+text-align:center;
+color:#fff;
+}
+
+#descripcion{
+text-align:justify;
+padding-left:40px;
+paddig-right:40px;
+color:#fff;
+font-size: 18px;
+}
+
+
+#menu{
+text-align:center;
+background-color:#318F1C;
+}
+#lista-menu{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:20px;
+color:#fff;
+padding-top:10px;
+padding-bottom:10px;
+list-style:none;
+}
+.menu-item{
+color:#fff;
+font-size: 18px;
+}
+.enlace-item{
+text-decoration:none;
+}
+#contenedor-1{
+    width:100vw;
+    height: 700px;
+    background-image:url("./img/contacto2.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+    }
+    #contenedor-2{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width:100vw;
+        height: 400px;
+        background-color:#81D8D0;
+        color:#fff;
+        margin-top: 20px;
+        margin-bottom:20px;
+        }
